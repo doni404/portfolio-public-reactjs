@@ -27,8 +27,8 @@ const Home = () => {
             <span>About Me</span>
             <h2>About Me</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            I am a loyal and trustworthy employee who can work alone or as part of a team. 
+            I also have a good sense of humour and a pleasant approach.
             </p>
           </div>
           {/* End .beny_tm_title */}
