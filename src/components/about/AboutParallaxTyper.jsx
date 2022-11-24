@@ -88,7 +88,7 @@ const AboutParallax = () => {
               </ul>
             </div>
             <div className="beny_tm_button color-outline">
-              <a href="img/about/cv.webp" download>
+              <a href="img/about/cv_doniputrapurbawa.pdf" download>
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>
