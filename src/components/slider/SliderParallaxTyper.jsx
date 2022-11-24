@@ -57,9 +57,10 @@ const SliderParallaxTyper = () => {
                     typeSpeed={100}
                     backSpeed={60}
                     strings={[
+                      "Backend Engineer Manager",
                       "Sr. System Architect",
-                      "Backend Engineer",
-                      "Hobby is Sports",
+                      "Server Administrator (AWS)",
+                      "Data Science Enthusiast",
                     ]}
                     smartBackspace
                     shuffle={false}
@@ -78,8 +79,7 @@ const SliderParallaxTyper = () => {
                   data-aos-duration="1200"
                   data-aos-delay="150"
                 >
-                  I design and develop services for customers of all sizes, specializing in system & database planning, 
-                  modern websites, web services and online stores.
+                  I design and develop services for customers of all sizes, specializing in systems & database planning, modern websites, web services and online stores.
                 </p>
 
                 <div
