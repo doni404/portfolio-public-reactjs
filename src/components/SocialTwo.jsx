@@ -3,19 +3,15 @@ import React from "react";
 const socialList = [
   {
     name: "FB.",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/doni.putra.547389",
   },
   {
-    name: "DR.",
-    link: "https://dribbble.com/",
+    name: "GH.",
+    link: "https://github.com/doni404",
   },
   {
-    name: "BE.",
-    link: "https://www.behance.net/",
-  },
-  {
-    name: "TW.",
-    link: "https://twitter.com/",
+    name: "LI.",
+    link: "https://www.linkedin.com/in/doniputrapurbawa/",
   },
 ];
 
