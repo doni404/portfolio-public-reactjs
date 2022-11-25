@@ -3,19 +3,14 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
-    passingYear: "2020-2021",
-    degree: "Ph.D in Horriblensess ",
-    instituteName: "Harvard University, Cambridge, MA",
+    passingYear: "2020-2022",
+    degree: "Master of Computer Science",
+    instituteName: "Institut Teknologi Sepuluh Nopember University (ITS)",
   },
   {
-    passingYear: "2018-2019",
-    degree: "Computer Science",
-    instituteName: "Imperialize Technical Institute",
-  },
-  {
-    passingYear: "2016-2018",
-    degree: "Graphic Designer",
-    instituteName: "Web Graphy, Los Angeles, CA",
+    passingYear: "2014-2019",
+    degree: "Bachelor of Computer Science",
+    instituteName: "Brawijaya University",
   },
 ];
 
