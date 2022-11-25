@@ -39,19 +39,14 @@ const skillsContent = [
 
 const awardContent = [
   {
-    awardYear: "2020",
-    degree: "Best Developer",
-    instituteName: "University Of Melbourne, NA",
+    awardYear: "2017 - 2018",
+    degree: "Saga Unversity Scholarship",
+    instituteName: "SPACE Exchange Program",
   },
   {
-    awardYear: "2019",
-    degree: "Best Writter",
-    instituteName: "Online Typodev Soluation Ltd.",
-  },
-  {
-    awardYear: "2007",
-    degree: "Best Freelancer ",
-    instituteName: "Fiver & Upwork Level 2 & Top Rated",
+    awardYear: "2016 - 2017",
+    degree: "Djarum Foundation Scholarship",
+    instituteName: "Outstanding Student Program",
   },
 ];
 const experienceContent = [
