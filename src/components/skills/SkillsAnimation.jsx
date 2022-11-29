@@ -3,12 +3,12 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
-    passingYear: "2020-2022",
+    passingYear: "2020 - 2022",
     degree: "Master of Computer Science",
     instituteName: "Institut Teknologi Sepuluh Nopember University (ITS)",
   },
   {
-    passingYear: "2014-2019",
+    passingYear: "2014 - 2019",
     degree: "Bachelor of Computer Science",
     instituteName: "Brawijaya University",
   },
@@ -51,39 +51,66 @@ const awardContent = [
 ];
 const experienceContent = [
   {
-    designation: "Sr. Software Tester",
+    designation: "Backend Engineering Manager",
     jobType: "Full Time | Remote",
-    year: "2020 - Present",
-    compnayName: "Google Inc.",
+    year: "2019 - Present",
+    compnayName: "Gloding Inc.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
-    animationDealy: "",
-  },
-  {
-    designation: "Sr. Graphic Designer",
-    jobType: "Part Time | Office",
-    year: "2018 - 2019",
-    compnayName: "Avada Theme.",
-    descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
     animationDealy: "200",
   },
   {
-    designation: "Cr. Web Developer",
-    jobType: "Full Time | InHouse",
-    year: "2016 - 2017",
-    compnayName: "ib-themes ltd.",
+    designation: "Sr. System Architect",
+    jobType: "Full Time | Remote",
+    year: "2018 - 2019",
+    compnayName: "Gloding Inc.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+    animationDealy: "200",
+  },
+  {
+    designation: "Jr. Server Administrator",
+    jobType: "Full Time | Remote",
+    year: "2018 - 2019",
+    compnayName: "Gloding Inc.",
+    descriptions:
+      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
     animationDealy: "",
   },
   {
-    designation: "Jr. Web Developer",
-    jobType: "Full Time | Remote",
-    year: "2014 - 2015",
-    compnayName: "Creative Gigs.",
+    designation: "Backend Developer",
+    jobType: "Part Time | Remote - Office",
+    year: "2017 - 2018",
+    compnayName: "Gloding Inc.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+    animationDealy: "200",
+  },
+  {
+    designation: "Data Scientist",
+    jobType: "Part Time | Remote",
+    year: "Aug - Dec 2021",
+    compnayName: "PT Hikari Solusindo Sukses",
+    descriptions:
+      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+    animationDealy: "200",
+  },
+  {
+    designation: "Web Developer",
+    jobType: "Internship | Office",
+    year: "Jul - Sep 2017",
+    compnayName: "PT Kereta Api Indonesia",
+    descriptions:
+      "[NEED UPDATE] We were making online application for internal KAI called IT Service Request and IT Change Request",
+    animationDealy: "200",
+  },
+  {
+    designation: "Jr. Mobile Developer",
+    jobType: "Student Employee | Office",
+    year: "2016 - 2017",
+    compnayName: "Brawijaya University (MGM Research Group)",
+    descriptions:
+      "[NEED UPDATE] I developed both website and android apps. I got so many experiences about making new valuable product by metrics.",
     animationDealy: "200",
   },
 ];
@@ -136,7 +163,7 @@ const SkillsAnimation = () => {
                 >
                   <div className="skills ">
                     <h4>
-                      <label>Skills</label>
+                      <label>Skills and Certificates</label>
                     </h4>
                     <div className="beny_progress">
                       {skillsContent.map((val, i) => (
