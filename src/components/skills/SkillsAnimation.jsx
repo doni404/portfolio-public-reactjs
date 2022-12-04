@@ -55,8 +55,9 @@ const experienceContent = [
     jobType: "Full Time | Remote",
     year: "2019 - Present",
     compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Monitoring the backend staff for the development of API services using several programming language stacks, namely Java Jax-rs, Go-lang, Nodejs, and Ruby on rails. I use Jira Management tools daily to control backend tasks and meet project deadline targets.",
     animationDealy: "200",
   },
   {
@@ -64,8 +65,9 @@ const experienceContent = [
     jobType: "Full Time | Remote",
     year: "2018 - 2019",
     compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Understanding the desired business or departmental strategy and outcome. Breaking down those outcomes into defined parts including products, processes, and functions. Decide on the right architecture to achieve what they have defined. Also understanding software, hardware, and user interactions, integrations, and interfaces.",
     animationDealy: "200",
   },
   {
@@ -73,8 +75,9 @@ const experienceContent = [
     jobType: "Full Time | Remote",
     year: "2018 - 2019",
     compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Monitoring server performance and capacity to ensure that it meets client needs. Troubleshooting problems with existing systems and implementing solutions to fix them. Administering disaster recovery plans to ensure that data is backed up and can be restored in case of failure.",
     animationDealy: "",
   },
   {
@@ -82,8 +85,9 @@ const experienceContent = [
     jobType: "Part Time | Remote - Office",
     year: "2017 - 2018",
     compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Managing the exchange of data between the server and the users. Focus on the development of all server-side logic, maintenance, and definition of the central database, and ensuring high performance and responsiveness to requests from the front-end. Responsible for the integration of the front-end elements.",
     animationDealy: "200",
   },
   {
@@ -91,8 +95,9 @@ const experienceContent = [
     jobType: "Part Time | Remote",
     year: "Aug - Dec 2021",
     compnayName: "PT Hikari Solusindo Sukses",
+    compnayLink: "https://hss.co.id/",
     descriptions:
-      "[NEED UPDATE] I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Undertaking data collection, cleaning, preprocessing and analysis from COVID-19 sampler tools (Inose-C19). Training and building models to detect and classify human armpit sample as a COVID-19 patient or not. Also presenting the information using data visualization technique.",
     animationDealy: "200",
   },
   {
@@ -100,8 +105,9 @@ const experienceContent = [
     jobType: "Internship | Office",
     year: "Jul - Sep 2017",
     compnayName: "PT Kereta Api Indonesia",
+    compnayLink: "https://www.kai.id/",
     descriptions:
-      "[NEED UPDATE] We were making online application for internal KAI called IT Service Request and IT Change Request",
+      "We were in team for making online application for internal KAI called IT Service Request and IT Change Request. We were using PHP framework (Yii) to develop and figma for presentation",
     animationDealy: "200",
   },
   {
@@ -109,8 +115,9 @@ const experienceContent = [
     jobType: "Student Employee | Office",
     year: "2016 - 2017",
     compnayName: "Brawijaya University (MGM Research Group)",
+    compnayLink: "https://filkom.ub.ac.id/lab-mgm/",
     descriptions:
-      "[NEED UPDATE] I developed both website and android apps. I got so many experiences about making new valuable product by metrics.",
+      "Developing new features and user interfaces from wireframe models. Ensuring the best performance and user experience of the application. Also cooperating with back-end developers, designers, and the rest of the team to deliver well-architected and high-quality solutions",
     animationDealy: "200",
   },
 ];
@@ -232,7 +239,9 @@ const SkillsAnimation = () => {
                     <span>{val.year}</span>
                     <div className="hr"></div>
                     <h4>
+                    <a href={val.compnayLink} target="_blank" rel="noopener noreferrer">
                       <label>{val.compnayName}</label>
+                    </a>
                     </h4>
                     <p>{val.descriptions}</p>
                   </div>
