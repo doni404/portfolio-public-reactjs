@@ -1,26 +1,32 @@
 import React from "react";
 import {
   FiFacebook,
-  FiTwitter,
   FiInstagram,
-  FiDribbble,
   FiLinkedin,
+  FiGithub,
+  FiMail,
 } from "react-icons/fi";
 
 const SocialShare = [
   {
     iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/doni.putra.547389/",
   },
-  { iconName: <FiTwitter />, link: "https://twitter.com/" },
-  {
-    iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
-  },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "https://www.linkedin.com/in/doniputrapurbawa/",
+  },
+  {
+    iconName: <FiInstagram />,
+    link: "https://www.instagram.com/doniputrapurbawa/",
+  },
+  {
+    iconName: <FiGithub />,
+    link: "https://github.com/doni404/",
+  },
+  {
+    iconName: <FiMail />,
+    link: "mailto:doniputrapurbawa@gmail.com",
   },
 ];
 const Social = () => {

@@ -3,97 +3,121 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
-    passingYear: "2020-2021",
-    degree: "Ph.D in Horriblensess ",
-    instituteName: "Harvard University, Cambridge, MA",
+    passingYear: "2020 - 2022",
+    degree: "Master of Computer Science",
+    instituteName: "Institut Teknologi Sepuluh Nopember University (ITS)",
   },
   {
-    passingYear: "2018-2019",
-    degree: "Computer Science",
-    instituteName: "Imperialize Technical Institute",
-  },
-  {
-    passingYear: "2016-2018",
-    degree: "Graphic Designer",
-    instituteName: "Web Graphy, Los Angeles, CA",
+    passingYear: "2014 - 2019",
+    degree: "Bachelor of Computer Science",
+    instituteName: "Brawijaya University",
   },
 ];
 
 const skillsContent = [
   {
-    name: "Web Design",
+    name: "Server (AWS, GCP, XServer)",
     skillPercent: "85",
   },
   {
-    name: "Mobile App",
-    skillPercent: "55",
+    name: "Backend (Golang, Java, NodeJs)",
+    skillPercent: "90",
   },
   {
-    name: "Illustrator",
-    skillPercent: "65",
+    name: "CI / CD (Github Action, Jenkins)",
+    skillPercent: "75",
   },
   {
-    name: "Photoshop",
-    skillPercent: "72",
+    name: "General Web (React, Java, PHP)",
+    skillPercent: "70",
   },
   {
-    name: "Motion Graphy",
-    skillPercent: "80",
+    name: "Mobile (Ionic, Flutter)",
+    skillPercent: "60",
   },
 ];
 
 const awardContent = [
   {
-    awardYear: "2020",
-    degree: "Best Developer",
-    instituteName: "University Of Melbourne, NA",
+    awardYear: "2017 - 2018",
+    degree: "Saga Unversity Scholarship",
+    instituteName: "SPACE Exchange Program",
   },
   {
-    awardYear: "2019",
-    degree: "Best Writter",
-    instituteName: "Online Typodev Soluation Ltd.",
-  },
-  {
-    awardYear: "2007",
-    degree: "Best Freelancer ",
-    instituteName: "Fiver & Upwork Level 2 & Top Rated",
+    awardYear: "2016 - 2017",
+    degree: "Djarum Foundation Scholarship",
+    instituteName: "Outstanding Student Program",
   },
 ];
 const experienceContent = [
   {
-    designation: "Sr. Software Tester",
+    designation: "Backend Engineering Manager",
     jobType: "Full Time | Remote",
-    year: "2020 - Present",
-    compnayName: "Google Inc.",
+    year: "2019 - Present",
+    compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
-    animationDealy: "",
-  },
-  {
-    designation: "Sr. Graphic Designer",
-    jobType: "Part Time | Office",
-    year: "2018 - 2019",
-    compnayName: "Avada Theme.",
-    descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Monitoring the backend staff for the development of API services using several programming language stacks, namely Java Jax-rs, Go-lang, Nodejs, and Ruby on rails. I use Jira Management tools daily to control backend tasks and meet project deadline targets.",
     animationDealy: "200",
   },
   {
-    designation: "Cr. Web Developer",
-    jobType: "Full Time | InHouse",
-    year: "2016 - 2017",
-    compnayName: "ib-themes ltd.",
+    designation: "Sr. System Architect",
+    jobType: "Full Time | Remote",
+    year: "2018 - 2019",
+    compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Understanding the desired business or departmental strategy and outcome. Breaking down those outcomes into defined parts including products, processes, and functions. Decide on the right architecture to achieve what they have defined. Also understanding software, hardware, and user interactions, integrations, and interfaces.",
+    animationDealy: "200",
+  },
+  {
+    designation: "Jr. Server Administrator",
+    jobType: "Full Time | Remote",
+    year: "2018 - 2019",
+    compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
+    descriptions:
+      "Monitoring server performance and capacity to ensure that it meets client needs. Troubleshooting problems with existing systems and implementing solutions to fix them. Administering disaster recovery plans to ensure that data is backed up and can be restored in case of failure.",
     animationDealy: "",
   },
   {
-    designation: "Jr. Web Developer",
-    jobType: "Full Time | Remote",
-    year: "2014 - 2015",
-    compnayName: "Creative Gigs.",
+    designation: "Backend Developer",
+    jobType: "Part Time | Remote - Office",
+    year: "2017 - 2018",
+    compnayName: "Gloding Inc.",
+    compnayLink: "https://gloding.com/",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Managing the exchange of data between the server and the users. Focus on the development of all server-side logic, maintenance, and definition of the central database, and ensuring high performance and responsiveness to requests from the front-end. Responsible for the integration of the front-end elements.",
+    animationDealy: "200",
+  },
+  {
+    designation: "Data Scientist",
+    jobType: "Part Time | Remote",
+    year: "Aug - Dec 2021",
+    compnayName: "PT Hikari Solusindo Sukses",
+    compnayLink: "https://hss.co.id/",
+    descriptions:
+      "Undertaking data collection, cleaning, preprocessing and analysis from COVID-19 sampler tools (Inose-C19). Training and building models to detect and classify human armpit sample as a COVID-19 patient or not. Also presenting the information using data visualization technique.",
+    animationDealy: "200",
+  },
+  {
+    designation: "Web Developer",
+    jobType: "Internship | Office",
+    year: "Jul - Sep 2017",
+    compnayName: "PT Kereta Api Indonesia",
+    compnayLink: "https://www.kai.id/",
+    descriptions:
+      "We were in team for making online application for internal KAI called IT Service Request and IT Change Request. We were using PHP framework (Yii) to develop and figma for presentation",
+    animationDealy: "200",
+  },
+  {
+    designation: "Jr. Mobile Developer",
+    jobType: "Student Employee | Office",
+    year: "2016 - 2017",
+    compnayName: "Brawijaya University (MGM Research Group)",
+    compnayLink: "https://filkom.ub.ac.id/lab-mgm/",
+    descriptions:
+      "Developing new features and user interfaces from wireframe models. Ensuring the best performance and user experience of the application. Also cooperating with back-end developers, designers, and the rest of the team to deliver well-architected and high-quality solutions",
     animationDealy: "200",
   },
 ];
@@ -146,7 +170,7 @@ const SkillsAnimation = () => {
                 >
                   <div className="skills ">
                     <h4>
-                      <label>Skills</label>
+                      <label>Skills and Certificates</label>
                     </h4>
                     <div className="beny_progress">
                       {skillsContent.map((val, i) => (
@@ -215,7 +239,9 @@ const SkillsAnimation = () => {
                     <span>{val.year}</span>
                     <div className="hr"></div>
                     <h4>
+                    <a href={val.compnayLink} target="_blank" rel="noopener noreferrer">
                       <label>{val.compnayName}</label>
+                    </a>
                     </h4>
                     <p>{val.descriptions}</p>
                   </div>

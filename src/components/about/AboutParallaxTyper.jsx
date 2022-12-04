@@ -32,10 +32,9 @@ const AboutParallax = () => {
               based in <span className="theme-color">Japan</span>
             </h5>
             <p>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences through meaningful
-              interactions. Check out my Portfolio
+            I have successfully delivered many projects on time to clients. 
+            Besides working, I have also enhanced my education and have graduated with a bachelor's and master's degree in informatics engineering or computer science major. 
+            My research interests include scalable and intelligent systems, artificial intelligence, and blockchain technology. Check out my Portfolio
             </p>
             <div className="about_social">
               <Social />
@@ -88,7 +87,7 @@ const AboutParallax = () => {
               </ul>
             </div>
             <div className="beny_tm_button color-outline">
-              <a href="img/about/cv.webp" download>
+              <a href="img/about/cv_doniputrapurbawa.pdf" download>
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>
