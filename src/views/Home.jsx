@@ -39,7 +39,7 @@ const Home = () => {
       {/* /ABOUT */}
 
       {/* SERVICES */}
-      <div className="beny_tm_services" id="service">
+      {/* <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Services</span>
@@ -49,10 +49,10 @@ const Home = () => {
               egestas. Id fermentum nullam ipsum massa.
             </p>
           </div>
-          {/* End beny_tm_title */}
           <Service />
         </div>
-      </div>
+      </div> */}
+      {/* End beny_tm_title */}
       {/* /SERVICES */}
 
       {/* PORTFOLIO */}

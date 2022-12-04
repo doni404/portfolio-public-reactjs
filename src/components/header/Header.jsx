@@ -40,7 +40,7 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
-                  "service",
+                  // "service",
                   "portfolio",
                   "news",
                   "contact",
@@ -60,12 +60,12 @@ const Header = () => {
                     <span className="second">About</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#service">
                     <span className="first">Service</span>
                     <span className="second">Service</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#portfolio">
                     <span className="first">Portfolio</span>
