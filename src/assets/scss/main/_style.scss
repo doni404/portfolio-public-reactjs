@@ -1189,7 +1189,7 @@ body.dark .loader_line:after {
 .progress_inner span.number {
   float: right;
   position: absolute;
-  right: 15%;
+  right: 0%;
   top: 50%;
   transform: translateY(-50%);
   transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1); /* IE 10+ */

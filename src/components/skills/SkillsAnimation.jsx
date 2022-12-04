@@ -16,24 +16,24 @@ const educationContent = [
 
 const skillsContent = [
   {
-    name: "Web Design",
+    name: "Server (AWS, GCP, XServer)",
     skillPercent: "85",
   },
   {
-    name: "Mobile App",
-    skillPercent: "55",
+    name: "Backend (Golang, Java, NodeJs)",
+    skillPercent: "90",
   },
   {
-    name: "Illustrator",
-    skillPercent: "65",
+    name: "CI / CD (Github Action, Jenkins)",
+    skillPercent: "75",
   },
   {
-    name: "Photoshop",
-    skillPercent: "72",
+    name: "General Web (React, Java, PHP)",
+    skillPercent: "70",
   },
   {
-    name: "Motion Graphy",
-    skillPercent: "80",
+    name: "Mobile (Ionic, Flutter)",
+    skillPercent: "60",
   },
 ];
 
