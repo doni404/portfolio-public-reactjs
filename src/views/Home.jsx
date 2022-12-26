@@ -62,8 +62,7 @@ const Home = () => {
             <span>Portfolio</span>
             <h2>My Portfolio</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              My name is Doni Putra, and my portfolio is a representation of all that I've learned and accomplished as a science and engineering field also as a backend manager.
             </p>
           </div>
           {/* End beny_tm_title */}

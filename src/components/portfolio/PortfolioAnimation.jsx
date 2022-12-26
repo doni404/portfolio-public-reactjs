@@ -36,11 +36,11 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="title"
               >
-                <h3>Aura Dione </h3>
-                <span>Youtube Shoot</span>
+                <h3>Art With Me </h3>
+                <span>NFT Marketplace Site</span>
               </a>
               <img
-                src="img/portfolio/3.jpg"
+                src="img/portfolio/porto1.jpg"
                 alt="Youtube Shoot"
                 onClick={() => setOpen(true)}
               />
@@ -59,11 +59,11 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="title"
               >
-                <h3>Jupita Rine </h3>
-                <span>Vimeo Shoot</span>
+                <h3>JHIA Academy</h3>
+                <span>Online Sewing Course Site</span>
               </a>
               <img
-                src="img/portfolio/2.jpg"
+                src="img/portfolio/porto2.jpg"
                 alt="Vimeo Shoot"
                 onClick={() => setOpen2(true)}
               />
@@ -84,12 +84,12 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   href="https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template"
                 >
-                  <h3>Ave Simone</h3>
-                  <span>Dribbble Shoot</span>
+                  <h3>Jimomo</h3>
+                  <span>E-Commerce Portal Site</span>
                 </a>
 
-                <a href="img/portfolio/1.jpg">
-                  <img src="img/portfolio/1.jpg" alt="Dribbble Shoot" />
+                <a href="img/portfolio/porto3.jpg">
+                  <img src="img/portfolio/porto3.jpg" alt="Dribbble Shoot" />
                 </a>
               </div>
             </li>
@@ -107,12 +107,12 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   href="https://dribbble.com/shots/16530034-Tokyo-Personal-Portfolio-React-Template-RTL"
                 >
-                  <h3>Kelly Smith</h3>
-                  <span>Dribbble Shoot</span>
+                  <h3>Crafting</h3>
+                  <span>Japan Craft Online Course</span>
                 </a>
 
-                <a href="img/portfolio/4.jpg">
-                  <img src="img/portfolio/4.jpg" alt="Dribbble Shoot" />
+                <a href="img/portfolio/porto4.jpg">
+                  <img src="img/portfolio/porto4.jpg" alt="Dribbble Shoot" />
                 </a>
               </div>
             </li>
@@ -130,12 +130,12 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   href="https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template"
                 >
-                  <h3>Duru Sweet</h3>
-                  <span>Dribbble Shoot</span>
+                  <h3>Nihonvogue</h3>
+                  <span>Japan Craft Holdings Company Site</span>
                 </a>
 
-                <a href="img/portfolio/5.jpg">
-                  <img src="img/portfolio/5.jpg" alt="Dribbble Shoot" />
+                <a href="img/portfolio/porto5.jpg">
+                  <img src="img/portfolio/porto5.jpg" alt="Dribbble Shoot" />
                 </a>
               </div>
             </li>
@@ -153,12 +153,56 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   href="https://www.facebook.com/ibthemes"
                 >
-                  <h3>Lisa Kotlins</h3>
-                  <span>Facebook Shoot</span>
+                  <h3>Ensemble en Français</h3>
+                  <span>French Online Course Site</span>
                 </a>
 
-                <a href="img/portfolio/6.jpg">
-                  <img src="img/portfolio/6.jpg" alt="Facebook Shoot" />
+                <a href="img/portfolio/porto6.jpg">
+                  <img src="img/portfolio/porto6.jpg" alt="Facebook Shoot" />
+                </a>
+              </div>
+            </li>
+
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <div className="list_inner">
+                <a
+                  className="title"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://dribbble.com/shots/16530034-Tokyo-Personal-Portfolio-React-Template-RTL"
+                >
+                  <h3>Machine Learning & Deep Learning</h3>
+                  <span>Indonesian Theory Book</span>
+                </a>
+
+                <a href="img/portfolio/porto7.jpg">
+                  <img src="img/portfolio/porto7.jpg" alt="Dribbble Shoot" />
+                </a>
+              </div>
+            </li>
+
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <div className="list_inner">
+                <a
+                  className="title"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://dribbble.com/shots/16530034-Tokyo-Personal-Portfolio-React-Template-RTL"
+                >
+                  <h3>Inose C-19</h3>
+                  <span>COVID-19 Skrinning Tools</span>
+                </a>
+
+                <a href="img/portfolio/porto8.jpg">
+                  <img src="img/portfolio/porto8.jpg" alt="Dribbble Shoot" />
                 </a>
               </div>
             </li>
