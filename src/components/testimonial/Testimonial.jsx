@@ -25,22 +25,34 @@ export default function SimpleSlider() {
 
   const testimonialContent = [
     {
-      img: "1",
-      desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
-      name: "Alvara Atkins",
-      designation: "Marketing Manager",
+      img: "kiichiro",
+      desc: `This person has ability to learn many things faster, and good commitment on it. Also the responsibility is being the first point for him.`,
+      name: "Kiichiro Muto",
+      designation: "CEO - Gloding Japan",
     },
     {
-      img: "2",
-      desc: `This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away by it.`,
-      name: "Fabian Gattuzo",
-      designation: "Photographer",
+      img: "nobuaki",
+      desc: `Good at responsibility, fast respond and catch up new technology.`,
+      name: "Nobuaki Seto",
+      designation: "CEO - Nihon Vogue",
     },
     {
-      img: "3",
-      desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-      name: "Alizee Bonita",
-      designation: "App Developer",
+      img: "tatsuya",
+      desc: `Doni has good communication and technical issue, especially on server and database maintenance. Thanks a lot for any kind of supports.`,
+      name: "Tatsuya Baba",
+      designation: "CEO - Jimomo Paris",
+    },
+    {
+      img: "hoki",
+      desc: `To continue development of ensemble project, the team has shown true dedication and determination. Without your support, the organization could not have gone that extra mile. The company is truly graced with employees like you. A massive thank you to each one of you !`,
+      name: "Mika Hoki",
+      designation: "Technical Support - Ensemble Paris",
+    },
+    {
+      img: "agus",
+      desc: `Colleagues from Brawijaya are totally involved in working on the ITCR & ITSR project, which is very useful for internal KAI. In terms of skill, it is very capable, marked by being able to learn environments that have never been encountered, but managed to deliver on time.`,
+      name: "Agus Rukka",
+      designation: "IT Quality Control - Indonesian Railways Company",
     },
   ];
 

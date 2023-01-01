@@ -76,10 +76,9 @@ const Home = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Testimonials</span>
-            <h2>What's Clients Say.</h2>
+            <h3>What's Clients & Partners Say.</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            Every company’s greatest assets are its customers because without customers there is no company.
             </p>
           </div>
           {/* End beny_tm_title */}
