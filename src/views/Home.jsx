@@ -122,7 +122,7 @@ const Home = () => {
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
-                <h2>Let's discuss your project</h2>
+                <h2>Let's keep in touch !</h2>
               </div>
               <div className="short_list">
                 <Address />
