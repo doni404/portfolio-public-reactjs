@@ -101,8 +101,7 @@ const Home = () => {
             <span>Blogs</span>
             <h2>Recent News</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            A good news story is about something the audience decides is interesting or important.
             </p>
           </div>
           {/* End beny_tm_title */}
