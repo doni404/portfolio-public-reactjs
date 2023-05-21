@@ -26,7 +26,7 @@ export default function SimpleSlider() {
   const testimonialContent = [
     {
       img: "kiichiro",
-      desc: `This person has ability to learn many things faster, and good commitment on it. Also the responsibility is being the first point for him.`,
+      desc: `Doni has ability to learn many things faster, and good commitment on it. Also the responsibility is being the first point for him.`,
       name: "Kiichiro Muto",
       designation: "CEO - Gloding Japan",
     },
@@ -44,9 +44,15 @@ export default function SimpleSlider() {
     },
     {
       img: "hoki",
-      desc: `To continue development of ensemble project, the team has shown true dedication and determination. Without your support, the organization could not have gone that extra mile. The company is truly graced with employees like you. A massive thank you to each one of you !`,
+      desc: `Doni and team have shown true dedication and determination to continue Ensemble project development. Without your support, the organization could not have gone that extra mile. A massive thank you to each one of you !`,
       name: "Mika Hoki",
       designation: "Technical Support - Ensemble Paris",
+    },
+    {
+      img: "riyanarto",
+      desc: `Good capability and consistency, we had great experience making The first non-infectious, non-invasive, fast and affordable COVID-19 screening tool in the world !`,
+      name: "Riyanarto Sarno",
+      designation: "ITS University Professor - Idea Initiator i-Nose",
     },
     {
       img: "agus",
