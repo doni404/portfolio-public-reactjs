@@ -137,9 +137,9 @@ const Home = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  I'm always open to discussing 
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span>partnerships and job opportunities.</span>
                 </p>
               </div>
               <div className="fields">
