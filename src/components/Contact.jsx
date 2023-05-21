@@ -1,5 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
   const {
@@ -9,12 +11,34 @@ const Contact = () => {
   } = useForm();
 
   const onSubmit = (data, e) => {
-    e.target.reset();
+    e.preventDefault();
     console.log("Message submited: " + JSON.stringify(data));
+
+    const contactData = {
+      name: data.name,
+      email: data.email,
+      subject: data.subject,
+      message: data.message,
+    };
+    
+    axios.post(process.env.REACT_APP_BASE_URL_API + "v1/contacts", contactData).then((response) => {
+      // Show success alert and reset the form
+      console.log(response.status);
+      toast.success('Email sent successfully !');
+      e.target.reset();
+    }).catch((error) => {
+      // Show error alert
+      console.log("err : " + error);
+      toast.error('Failed to send email !');
+    });
   };
 
   return (
     <>
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+      />
       <form className="contact_form" onSubmit={handleSubmit(onSubmit)}>
         <div className="first_row">
           <input
@@ -52,9 +76,10 @@ const Contact = () => {
           <div className="right">
             <input
               {...register("subject", { required: true })}
+              type="text"
               placeholder="Subject *"
             />
-            {errors.subject && (
+            {errors.subject && errors.subject.type === "required" && (
               <span className="invalid-feedback">Subject is required.</span>
             )}
           </div>
