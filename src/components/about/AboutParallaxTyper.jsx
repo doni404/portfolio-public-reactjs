@@ -3,6 +3,19 @@ import Skills from "../skills/SkillsAnimation";
 import Social from "../Social";
 
 const AboutParallax = () => {
+  function getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
+  // console.log('age: ' + getAge("1996/08/07"));
+
   return (
     <>
       <div className="about_inner">
@@ -13,9 +26,8 @@ const AboutParallax = () => {
             data-aos="fade-right"
             data-aos-duration="1200"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/9.jpg"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "img/about/9.jpg"
+                })`,
             }}
           ></div>
         </div>
@@ -32,9 +44,9 @@ const AboutParallax = () => {
               based in <span className="theme-color">Japan</span>
             </h5>
             <p>
-            I have successfully delivered many projects on time to clients. 
-            Besides working, I have also enhanced my education and have graduated with a bachelor's and master's degree in informatics engineering or computer science major. 
-            My research interests include scalable and intelligent systems, artificial intelligence, and blockchain technology. Check out my Portfolio
+              I have successfully delivered many projects on time to clients.
+              Besides working, I have also enhanced my education and have graduated with a bachelor's and master's degree in informatics engineering or computer science major.
+              My research interests include scalable and intelligent systems, artificial intelligence, and blockchain technology. Check out my Portfolio
             </p>
             <div className="about_social">
               <Social />
@@ -56,7 +68,7 @@ const AboutParallax = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 26 Years
+                    <span>Age :</span> {getAge("1996/08/07")} Years
                   </p>
                 </li>
                 <li>

@@ -17,10 +17,14 @@ const educationContent = [
 const skillsContent = [
   {
     name: "Server (AWS, GCP, XServer)",
-    skillPercent: "85",
+    skillPercent: "90",
   },
   {
-    name: "Backend (Golang, Java, NodeJs)",
+    name: "Frontend (React, Java, PHP)",
+    skillPercent: "70",
+  },
+  {
+    name: "Backend (Golang, Java, Node)",
     skillPercent: "90",
   },
   {
@@ -28,16 +32,21 @@ const skillsContent = [
     skillPercent: "75",
   },
   {
-    name: "General Web (React, Java, PHP)",
-    skillPercent: "70",
+    name: "Unit Test (Jest, Mocca)",
+    skillPercent: "60",
   },
   {
-    name: "Mobile (Ionic, Flutter)",
-    skillPercent: "60",
+    name: "Management (Jira)",
+    skillPercent: "80",
   },
 ];
 
 const awardContent = [
+  {
+    awardYear: "2022",
+    degree: "ITS University Master Degree",
+    instituteName: "Best Graduate Student",
+  },
   {
     awardYear: "2017 - 2018",
     degree: "Saga Unversity Scholarship",
@@ -172,6 +181,9 @@ const SkillsAnimation = () => {
                     <h4>
                       <label>Skills and Certificates</label>
                     </h4>
+                    <div style={{ marginBottom: 20, marginTop: -15 }}>
+                      <span style={{ fontSize: 12 }}>*percent means how often those skills are used</span>
+                    </div>
                     <div className="beny_progress">
                       {skillsContent.map((val, i) => (
                         <div className="progress_inner" key={i}>
@@ -239,9 +251,9 @@ const SkillsAnimation = () => {
                     <span>{val.year}</span>
                     <div className="hr"></div>
                     <h4>
-                    <a href={val.compnayLink} target="_blank" rel="noopener noreferrer">
-                      <label>{val.compnayName}</label>
-                    </a>
+                      <a href={val.compnayLink} target="_blank" rel="noopener noreferrer">
+                        <label>{val.compnayName}</label>
+                      </a>
                     </h4>
                     <p>{val.descriptions}</p>
                   </div>
