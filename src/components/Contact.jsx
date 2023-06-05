@@ -21,7 +21,7 @@ const Contact = () => {
       message: data.message,
     };
     
-    axios.post(process.env.REACT_APP_BASE_URL_API + "v1/contacts", contactData).then((response) => {
+    axios.post(process.env.REACT_APP_BASE_URL_API + "v1/public/contacts", contactData).then((response) => {
       // Show success alert and reset the form
       console.log(response.status);
       toast.success('Email sent successfully !');
