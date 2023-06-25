@@ -94,7 +94,8 @@ const Header = () => {
       <div className="mobile-menu-wrapper">
         <Scrollspy
           className="mobile_menu-icon"
-          items={["home", "about", "service", "portfolio", "news", "contact"]}
+          // items={["home", "about", "service", "portfolio", "news", "contact"]}
+          items={["home", "about", "portfolio", "news", "contact"]}
           currentClassName="current"
           offset={-65}
         >
@@ -110,12 +111,12 @@ const Header = () => {
               <span>About</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#service">
               <FiSettings />
               <span>Serivce</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#portfolio">
               <FiGrid />
