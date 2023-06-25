@@ -59,12 +59,11 @@ const Portfolio = () => {
               <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="image">
-                    <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                    <img src="/img/portfolio/no_image_thumbnail.png" alt="thumb" />
                     <div
                       className="main"
                       style={{
-                        backgroundImage: `url(${process.env.PUBLIC_URL + "img/news/1.jpg"
-                          })`,
+                        backgroundImage: modalData.image_banner != null ? `url(${getResources('portfolios/' + modalData.image_banner)})` : `url("/img/portfolio/no_image_thumbnail.png")`,
                       }}
                     ></div>
                   </div>
@@ -136,7 +135,7 @@ const Portfolio = () => {
                       <h3>{portfolio.title}</h3>
                       <span>{portfolio.subtitle}</span>
                     </a>
-                    <img crossOrigin="anonymous"
+                    <img
                       src={getResources(portfolio.image_thumbnail)}
                       alt="Portfolio Doni Putra"
                     />
