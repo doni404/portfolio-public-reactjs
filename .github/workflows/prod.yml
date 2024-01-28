@@ -45,7 +45,7 @@ jobs:
             git pull origin master
 
             # Install dependencies and build
-            npm ci
+            npm ci --legacy-peer-deps
             npm run build
             
             # Check if PM2 knows about our app
