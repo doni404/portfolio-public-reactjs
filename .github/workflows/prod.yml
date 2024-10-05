@@ -50,8 +50,10 @@ jobs:
             git fetch origin master
             git pull origin master
 
-            # Install dependencies and build
+            # Install dependencies
             npm ci --legacy-peer-deps
+
+            # Build the app
             npm run build
             
             # Check if PM2 knows about our app
