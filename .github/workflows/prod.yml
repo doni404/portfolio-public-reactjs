@@ -37,7 +37,7 @@ jobs:
             source ~/.bashrc
 
             # Navigate to the app directory
-            cd apps/portfolio-reactjs
+            cd apps/portfolio-public-reactjs
 
             # Update the codebase
             git switch master
