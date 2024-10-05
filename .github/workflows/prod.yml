@@ -49,11 +49,11 @@ jobs:
             npm run build
             
             # Check if PM2 knows about our app
-            if pm2 show portfolio-reactjs > /dev/null 2>&1; then
+            if pm2 show portfolio-public-reactjs > /dev/null 2>&1; then
               echo "Application is registered in PM2, restarting..."
-              pm2 restart portfolio-reactjs
+              pm2 restart portfolio-public-reactjs
             else
               echo "Application is not registered in PM2, starting..."
-              pm2 start npm --name "portfolio-reactjs" -- run start
+              pm2 start npm --name "portfolio-public-reactjs" -- run start
             fi
           '
