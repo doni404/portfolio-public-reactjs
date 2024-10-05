@@ -41,6 +41,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
             # Use a login shell to ensure all environment variables (like nvm, node, pm2) are correctly loaded
             source ~/.bashrc
+            nvm use 16.20.2  # Ensure Node.js 16 is used
 
             # Navigate to the app directory
             cd apps/portfolio-public-reactjs
